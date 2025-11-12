@@ -1,5 +1,3 @@
-package Exercise;
-
 import java.util.Scanner;
 
 public class Task5 {
