@@ -14,7 +14,7 @@ public class ScoreGrade {
         System.out.print("Enter your grade: ");
         int grade = scan.nextInt();
 
-        if (grade >= 90) {
+        if (grade >= 90 && grade <= 100) {
             System.out.println(name + ", Grade : A");
         }
         else if (grade >= 80 && grade <= 89) {
