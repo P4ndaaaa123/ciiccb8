@@ -1,17 +1,12 @@
 package ProgrammingChallenges;
 
-import java.util.Scanner;
-
 public class MultiplicationTable {
 
     public static void main(String[] args) {
-        
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        System.out.println(" --- Multiplication Table --- ");
 
-        for(int row = 1; row <= num; row++){
+        for(int row = 1; row <= 10; row++){
             for(int col = 1; col <= 10; col++){
                 System.out.print((row * col) + "\t");
             }

@@ -1,7 +1,4 @@
-import java.sql.Date;
-import java.time.LocalDate;
-
-public class Program {
+public class Task3{
 
 	public static void main(String[] args){
 			 	 		
