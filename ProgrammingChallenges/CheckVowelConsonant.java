@@ -29,7 +29,7 @@ public class CheckVowelConsonant {
         // Check if the letter is a vowel (both lowercase and uppercase)
         char[] vowels = {'a','e','i','o','u','A','E','I','O','U'};
 
-            // Check if the letter is in the vowels array
+        // Check if the letter is in the vowels array
         for (char vowel : vowels) {
             if (letter == vowel) {
                 return true;  // If it matches any vowel, return true
