@@ -1,3 +1,31 @@
+class Student{
+
+    private String firstName;
+    private String lastName;
+
+    public Student (String firstName, String lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public void printFullName(){
+        System.out.println("FullName: " + firstName + " " + lastName);
+    }
+}
+
 public class Task10 {
 
+    public static void main(String[] args) {
+
+        Student[] students = new Student[]{
+            new Student("Josh", "Mulano"),
+            new Student("Ryan", "Bansil"),
+            new Student("Monica", "Magcuro")
+        };
+
+        for(Student s : students){
+            s.printFullName();
+        }
+        
+    }
 }

@@ -16,7 +16,7 @@ public class Task7 {
         return a * b;
     }
 
-    public static int divide(int a, int b){
+    public static double divide(int a, int b){
         return a / b;
     }
 
@@ -35,7 +35,7 @@ public class Task7 {
         int result1 = add(num1, num2);
         int result2 = subtract(num1, num2);
         int result3 = multiply(num1, num2);
-        int result4 = divide(num1, num2);
+        double result4 = divide(num1, num2);
 
         // Display the result
         System.out.println("The Sum is " + result1);
