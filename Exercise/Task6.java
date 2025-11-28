@@ -10,10 +10,18 @@ public class Task6 {
             399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
             815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
             958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470, 743, 527};
-
-
         
-
-
+        // Check each number
+        for (int number : numbers) {
+            // If number is divisible by 2 and with no remainder, It will print the number
+            if (number % 2 == 0) {
+                System.out.println(number);
+            }
+            // If number check at 237, It will stop the program
+            if (number == 237) { 
+                break;
+            }
+        }
+        
     }
 }
