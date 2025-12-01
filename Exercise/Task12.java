@@ -1,4 +1,5 @@
 class Point{
+    
     private double x;
     private double y;
 
@@ -12,8 +13,8 @@ class Point{
     }
 
     public void scale(double x, double y){
-        this.x = x /y;
-        this.y = y / y;
+        this.x = this.x / 2;
+        this.y = this.y / 2;
     }
 }
 
@@ -21,10 +22,10 @@ public class Task12 {
 
     public static void main(String[] args) {
         
-        Point p = new Point(32, 32);
+        Point p = new Point(64, 64);
         
         for(int i = 0; i < 5; i++){
-            p.scale();
+            p.scale(i, i);
             p.print();
         }
     }

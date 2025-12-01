@@ -1,18 +1,17 @@
+
 import java.time.LocalDate;
-import java.time.Month;
+import java.time.LocalTime;
 import java.util.*;
-import java.util.function.Predicate;
+
 
 public class Deer {
 
     public static void main(String[] args) {
-        
-        System.out.println(test((i) -> {return i == 5;}));
 
-    }
+        LocalDate date = LocalDate.of(2015, 1, 20);
+        System.out.println(date);
 
-    private static boolean test (Predicate<Integer> p){
-        return p.test(5);
+        // https://docs.google.com/forms/d/e/1FAIpQLScRxBKW0IiDT4SeKcRTpQspVJE_xYADb6NgUMxi-3Hl3-yfGA/viewscore?pli=1&pli=1&viewscore=AE0zAgAKAy_KUZNTaAI9XYOBlHRJJtgot1aKbl8pJr2z2_mLNzycbLA_SU1k3-MX9w
     }
 }
 
