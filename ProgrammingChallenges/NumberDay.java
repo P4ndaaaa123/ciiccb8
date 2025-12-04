@@ -8,9 +8,11 @@ public class NumberDay {
         
         Scanner sc = new Scanner(System.in);
 
+        // Ask user to input a number from 1 to 7
         System.out.print("Enter a number from 1 - 7: ");
         int day = sc.nextInt();
 
+        // Print the day that corresponds with input of user
         switch (day) {
             case 1:
                 System.out.println(day + " is Monday");

@@ -8,7 +8,6 @@ public class NumberMonth {
 
     public static void main(String[] args) {
 
-
         Scanner sc = new Scanner(System.in);
 
         // Ask user to input a number from 1 -12
