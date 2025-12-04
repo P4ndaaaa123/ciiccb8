@@ -17,7 +17,7 @@ public class Task6 {
             if (number % 2 == 0) {
                 System.out.println(number);
             }
-            // If number check at 237, It will stop the program
+            // If number check is equal 237, It will stop the program
             if (number == 237) { 
                 break;
             }
