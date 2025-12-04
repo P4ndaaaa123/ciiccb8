@@ -11,15 +11,18 @@ public class SumOfAll {
         int count = 5;
         int sum = 0;
 
-        for(int i = 1; i<=count; i++){
+        // Loop 5 times
+        for(int i = 1; i <= count; i++){
 
+            // Ask 5 times the user to enter a number
             System.out.print("Enter a number " + i + ": ");
             int num = sc.nextInt();
             sum += num;
 
         }
 
-        System.out.println("The Total sum is " + sum);
+        // Print Result
+        System.out.println("The Total sum is : " + sum);
 
     }
 }

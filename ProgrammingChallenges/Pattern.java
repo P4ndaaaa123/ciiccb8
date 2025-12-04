@@ -8,18 +8,22 @@ public class Pattern {
         
         Scanner sc = new Scanner(System.in);
 
+        // Ask the user to input a number
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        for(int i = 1; i <= num; i++){
+        // Control how rows will be print
+        for(int i = num; i >= 1; i--) {
 
+            // Print number each row
             for (int j = 1; j <= i; j++) {
-                System.out.print(j);  // Print each number on the same line
+                System.out.print(j);
             }
 
+            // Move to new line after each row
+            System.out.println(); 
         }
 
-        
     }
-
 }
+

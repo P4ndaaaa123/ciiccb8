@@ -12,7 +12,6 @@ public class NumberChecker {
         int num = sc.nextInt();
 
         // Check if postive, negative or 0 number
-
         if (num > 0) {
             System.out.println(num + " is a positve number");
         }
