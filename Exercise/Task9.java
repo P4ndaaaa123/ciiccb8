@@ -37,7 +37,7 @@ public class Task9 {
         int sum = Math.addExact(num1, num2);
         int sub = Math.subtractExact(num1, num2);
         int mul = Math.multiplyExact(num1, num2);
-        float div = Math.divideExact(num1, num2);
+        long div = Math.divideExact(num1, num2);
 
 
         // Display the result

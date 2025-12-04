@@ -18,7 +18,7 @@ public class Task10 {
     public static void main(String[] args) {
 
         Student[] students = new Student[]{
-            new Student("Josh", "Mulano"),
+            new Student("Joshua", "Mulano"),
             new Student("Ryan", "Bansil"),
             new Student("Monica", "Magcuro")
         };
