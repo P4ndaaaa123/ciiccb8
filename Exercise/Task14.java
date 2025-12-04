@@ -13,6 +13,7 @@ class B extends abstractClass{
     }
 }
 
+// Override abstractMethod from B
 class C extends B{
     void abstractMethod(){
         System.out.println("C's implementation of B's abstractMethod");

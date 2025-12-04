@@ -4,7 +4,7 @@ class Vehicle{
     String model;
     int year;
 
-    // Constructor for Vehicle class
+    // Constructor for Vehicle 
     public Vehicle(String make, String model, int year) {
         this.make = make;
         this.model = model;
@@ -19,7 +19,8 @@ class Car extends Vehicle{
 
     // Constructor for Car class
     public Car(String make, String model, int year, int numberOfDoors) {
-        super(make, model, year);  // Call the parent class constructor
+        // Call the parent class constructor
+        super(make, model, year);  
         this.numberOfDoors = numberOfDoors;
     }
 
