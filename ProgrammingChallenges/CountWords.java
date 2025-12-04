@@ -6,6 +6,7 @@ public class CountWords {
 
     public static void main(String[] args) {
 
+
         Scanner sc = new Scanner(System.in);
 
         // Ask user to enter a sentence
@@ -18,6 +19,7 @@ public class CountWords {
         // Handle empty input
         int wordCount = (words.trim().isEmpty()) ? 0 : input.length;
 
+        // Print Result
         System.out.println("Number of words: " + wordCount);
     }
 }

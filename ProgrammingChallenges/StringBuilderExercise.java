@@ -7,26 +7,30 @@ public class StringBuilderExercise {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        
         String input;
-
+        
+        // Ask user repeatedly until they enter at least 10 characters
         while (true) {
+
             System.out.print("Enter at least 10 characters: ");
             input = sc.nextLine();
 
-            if (input.length() >= 10) break;
+            if (input.length() >= 10) break; // If valid input
 
             System.out.println("Please try again.\n");
         }
 
+        // Create StringBuilder using the user's input
         StringBuilder sbuild = new StringBuilder(input);
 
         // Print the length of the String
         System.out.println("Length: " + sbuild.length());
 
-        // Print the first char
+        // Print the first character
         System.out.println("First character: " + sbuild.charAt(0));
 
-        // Print the last char
+        // Print the last character
         System.out.println("Last character: " + sbuild.charAt(sbuild.length() - 1));
 
         // Print the Index of first occurrence of 'a'
