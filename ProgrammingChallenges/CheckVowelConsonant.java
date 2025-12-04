@@ -8,16 +8,17 @@ public class CheckVowelConsonant {
         
         Scanner sc = new Scanner(System.in);
         
+        // Ask user to enter a letter
         System.out.print("Enter a letter: ");
         char letter = sc.next().charAt(0);
 
-        if (isVowel(letter)) {
+        if (isVowel(letter)) {  // Check if the character is a vowel
             System.out.println(letter + " is a vowel.");
         }
-        else if(isConsonant(letter)){
+        else if(isConsonant(letter)){   // Check if the character is a consonant
             System.out.println(letter + " is a consonant");
         }
-        else {
+        else {  // If it's not a vowel or consonant, it's invalid
             System.out.println(letter + " is not a valid letter.");
         }
 
@@ -25,6 +26,7 @@ public class CheckVowelConsonant {
 
     // Method to check if the character is a vowel
     public static boolean isVowel(char letter) {
+
         // Check if the letter is a vowel (both lowercase and uppercase)
         char[] vowels = {'a','e','i','o','u','A','E','I','O','U'};
 
@@ -38,8 +40,10 @@ public class CheckVowelConsonant {
     }
 
     public static boolean isConsonant(char letter){
+
         // Check if the letter is an alphabetic character and not a vowel
         return Character.isLetter(letter) && !isVowel(letter);
+
     }
 
 }
